@@ -15,6 +15,7 @@ div#container {
 }
 .main {
 	width: 80%;
+		border: 1px solid #FF0000;
 		margin: 0 auto;
 }
 
