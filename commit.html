@@ -17,7 +17,24 @@ div#container {
 	width: 80%;
 		margin: 0 auto;
 }
-
+/* 点滅 */
+.blinking{
+	-webkit-animation:blink 1.5s ease-in-out infinite alternate;
+    -moz-animation:blink 1.5s ease-in-out infinite alternate;
+    animation:blink 1.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
 
   </style>
   
@@ -28,6 +45,7 @@ div#container {
 <body background="images/hanami.gif" onContextmenu="return false" >
 	<marquee>'15/10/24 Updated! 新着情報 git commitの使い方</marquee>
 	<header><h1>git commitのやり方</h1></header>
+	<span class="blinking"><img src="images/commit.jpg"></span>
 <div class="main">
 
 	<h2>コミットとは</h2>
