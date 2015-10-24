@@ -1,22 +1,64 @@
+
 <!DOCTYPE html>
 <html lang="ja_jp">
 <head>
   <meta charset="UTF-8">
-  <title>さんぷる</title>
+  <title>git commitのページ</title>
+    <style type="text/css">
+header {
+    text-align : center;
+}
+div#container {
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+.main {
+	width: 80%;
+		margin: 0 auto;
+}
+/* 点滅 */
+.blinking{
+	-webkit-animation:blink 1.5s ease-in-out infinite alternate;
+    -moz-animation:blink 1.5s ease-in-out infinite alternate;
+    animation:blink 1.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+  </style>
+  
 </head>
-body { background-image: url(images/hanami.gif);}
-<body>
-  <header>
-    <h1>さんぷる</h1>
-  </header>
-    <article>
-      <h2>たいとる</h2>
-      <p>
-        記事
-      </p>
-    </article>
+<META http-equiv="refresh" content="3; url=commit2.html">
+
+
+<body background="images/hanami.gif" onContextmenu="return false" >
+	<marquee>'15/10/24 Updated! 新着情報 git commitの使い方</marquee>
+	<CENTER>	<span class="blinking"><img src="images/commit.jpg"></span></CENTER>
+	<header><h1>git commitのやり方</h1></header>
+
+<div class="main">
+
+	<h2>コミットとは</h2>
+	<p>コミットとは、ファイルの追加や変更をリポジトリに記録する操作である。</p>
+	<script src="https://gist.github.com/suascrow/8ba47b0fb813d97a3dfd.js"></script>
+
+</div>
+<p>
+<input type="button" value="前のページへ戻る" onclick="history.back()">
+</p>
     <footer>
-      <small>(C) hyoiutu 2015</small>
+      <small>(C) hagi 2015</small>
     </footer>
 </body>
 </html>

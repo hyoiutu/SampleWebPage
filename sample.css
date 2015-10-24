@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+/*********************************************************************
+Copyright (C) 2009 WEB DESIGN LAB (http://www.webdlab.com/)
+Licensed under the MIT License:
+http://www.opensource.org/licenses/mit-license.php
+*********************************************************************/
+
+/*--Reset-----------------------------------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+html,body {
+	height: 100%;
+}
+
+img {
+	border: none;
+}
+
+ul,ol {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+ } 
+
+body {
+	font-size: 100%;
+	line-height: 1.6;
+	font-family: "qMmpS Pro W3","Hiragino Kaku Gothic Pro","CI",Meiryo,"lr oSVbN","MS PGothic",sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+}
+
+a,
+a:link {
+	color: #4776AF;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #4776AF;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #9fb7d4;
+}
+
+a:focus {
+	outline: none;
+}
+
+article,aside,details,footer,header,main,menu,nav,section,summary {
+	display: block;
+}
+
+/*------------------------------------------------------------------*/
+
+/*--sample----------------------------------------------------------*/
+
+#wrapper {
+	padding: 0 10px;
+}
+
+header {
+	width: 960px;/*Z^[Åè or LbhCAEgÌÏX(LbhCAEgÉ·éêÍwidthð100%ÉÏX)*/
+	margin: 0 auto 20px auto;
+	padding: 10px 0;
+	border-bottom: 2px solid #9fb7d4;
+}
+
+#contents {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 960px;/*Z^[Åè or LbhCAEgÌÏX(LbhCAEgÉ·éêÍwidthð100%ÉÏX)*/
+	min-height: 500px;/*TvpÉ³ÝèµÄ èÜ·B*/
+}
+
+/*--------------------------------------------------------------------
+¶TCho[
+¶TCho[É·éêÍºÌETCho[ðRgAEg
+--------------------------------------------------------------------*/
+
+#main {
+	overflow: hidden;
+	float: right;
+	width: 100%;
+	margin: 0 0 0 -180px;
+}
+
+#main-inner {
+	position: relative;
+	margin: 0 0 0 180px;
+	padding: 10px;
+}
+
+#sidebar {
+	float: left;
+	width: 160px;
+	min-height: 500px;
+	background: #cccccc;
+	margin: 0 0 10px 0;
+	padding: 10px;
+}
+/*#sidebarÌmin-heightÍTvpÉ³ÝèµÄ èÜ·B*/
+/*#sidebarÌÀTCYÍ180pxBpadding 10pxªø¢Ä160pxB*/
+/*--------------------------------------------------------------------
+ETCho[
+ETCho[É·éêÍãÌ¶TCho[ðRgAEg
+--------------------------------------------------------------------*/
+/*
+#main {
+	overflow: hidden;
+	float: left;
+	width: 100%;
+	margin: 0 -180px 0 0;
+}
+
+#main-inner {
+	position: relative;
+	margin: 0 180px 0 0;
+	padding: 10px;
+}
+
+#sidebar {
+	float: right;
+	width: 160px;
+	min-height: 500px;
+	background: #cccccc;
+	margin: 0 0 10px 0;
+	padding: 10px;
+}
+*/
+/*#sidebarÌmin-heightÍTvpÉ³ÝèµÄ èÜ·B*/
+/*#sidebarÌÀTCYÍ180pxBpadding 10pxªø¢Ä160pxB*/
+/*------------------------------------------------------------------*/
+
+footer {
+	width: 960px;/*Z^[Åè or LbhCAEgÌÏX(LbhCAEgÉ·éêÍwidthð100%ÉÏX)*/
+	margin: 20px auto 0 auto;
+	padding: 10px 0;
+	border-top: 2px solid #9fb7d4;
+}
